@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<title>SurveyTech</title>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li class="header-logo">
+            <img
+            class="logo"
+            alt="logo"
+            src="https://code.ptit.edu.vn/2020/images/logo_ptit.png"
+            />
+            
+          </li>
+          <li>
+            <div id="countdown" class="countdown">
+                <ul>
+                    
+                    <li class="separator">Customer Survey</li>
+    
+                  </ul>
+            </div>
+          </li>
+          <li class="menu"><a href="../../main/html/index.html">Back</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="account">
+                <div class="account-img">
+                  <img class="avatar" src="https://t4.ftcdn.net/jpg/03/49/49/79/360_F_349497933_Ly4im8BDmHLaLzgyKg2f2yZOvJjBtlw5.jpg" alt="Avatar" width="30" height="30">
+                </div>
+                <span>Account Name</span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container2">
+        <div class="test">
+            <form class="testform" id="testForm">
+                <div class="customerInfo">
+                    <div class="question">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="question">
+                        <label for="id">ID:</label>
+                        <input type="text" id="id" name="id">
+                    </div>
+                    <div class="question">
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                    <div class="question">
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address">
+                    </div>
+                </div>
+                <br>
+                <div class="YNquest">
+                    <div class="question">
+                        <label for="question1" >1. Were the staff helpful and knowledgeable?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question1" value="yes"> Yes</label>
+                          <label><input type="radio" name="question1" value="no"> No</label>
+                        </div>
+                    </div> <br>
+                    <div class="question">
+                        <label for="question2" >2. Was the store layout easy to navigate?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question2" value="yes"> Yes</label>
+                          <label><input type="radio" name="question2" value="no"> No</label>
+                        </div>
+                    </div> <br>
+                    <div class="question">
+                        <label for="question3" >3. Did you find the product selection satisfactory?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question3" value="yes"> Yes</label>
+                          <label><input type="radio" name="question3" value="no"> No</label>
+                        </div>
+                    </div> <br>
+                    <div class="question">
+                        <label for="question4" >4. Were the prices competitive?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question4" value="yes"> Yes</label>
+                          <label><input type="radio" name="question4" value="no"> No</label>
+                        </div>
+                    </div> <br>
+                    <div class="question">
+                        <label for="question5" >5. Did you receive prompt assistance upon entering the store?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question5" value="yes"> Yes</label>
+                          <label><input type="radio" name="question5" value="no"> No</label>
+                        </div>
+                    </div> <br>
+                    <div class="question">
+                        <label for="question6" >6. Was the checkout process efficient?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question6" value="yes"> Yes</label>
+                          <label><input type="radio" name="question6" value="no"> No</label>
+                        </div>
+                    </div> <br>
+                    <div class="question">
+                        <label for="question7" >7. Were you satisfied with the quality of the products purchased?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question7" value="yes"> Yes</label>
+                          <label><input type="radio" name="question7" value="no"> No</label>
+                        </div>
+                    </div> <br>
+                    <div class="question">
+                        <label for="question8" >8. Did you encounter any issues with the payment methods available?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question8" value="yes"> Yes</label>
+                          <label><input type="radio" name="question8" value="no"> No</label>
+                        </div>
+                    </div> <br>
+                    <div class="question">
+                        <label for="question9" >9. Was the overall ambiance of the store pleasant?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question9" value="yes"> Yes</label>
+                          <label><input type="radio" name="question9" value="no"> No</label>
+                        </div>
+                    </div> <br>
+                    <div class="question">
+                        <label for="question10" >10. Would you recommend this tech shop to others?</label>
+                        <div class="options">
+                          <label><input type="radio" name="question10" value="yes"> Yes</label>
+                          <label><input type="radio" name="question10" value="no"> No</label>
+                        </div>
+                    </div> <br>
+
+                </div>
+                <div class="MulQuest">
+                    <div class="question">
+                    <label for="question11">11. Which department did you visit primarily during your last visit?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question11" value="electronics"> Electronics</label><br>
+                        <label><input type="radio" name="question11" value="computers"> Computers</label><br>
+                        <label><input type="radio" name="question11" value="accessories"> Accessories</label><br>
+                        <label><input type="radio" name="question11" value="mobilePhones"> Mobile Phones</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question12">12. What influenced your decision to visit the tech shop today?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question12" value="advertisement"> Advertisement</label><br>
+                        <label><input type="radio" name="question12" value="recommendation"> Recommendation</label><br>
+                        <label><input type="radio" name="question12" value="specificProduct"> Need for specific product</label><br>
+                        <label><input type="radio" name="question12" value="curiosity"> Curiosity</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question13">13. How often do you visit this tech shop?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question13" value="weekly"> Weekly</label><br>
+                        <label><input type="radio" name="question13" value="monthly"> Monthly</label><br>
+                        <label><input type="radio" name="question13" value="occasionally"> Occasionally</label><br>
+                        <label><input type="radio" name="question13" value="firstTimeVisitor"> First-time visitor</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question14">14. What is your preferred method of browsing products?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question14" value="inStoreBrowsing"> In-store browsing</label><br>
+                        <label><input type="radio" name="question14" value="onlineBrowsing"> Online browsing</label><br>
+                        <label><input type="radio" name="question14" value="both"> Both</label><br>
+                        <label><input type="radio" name="question14" value="none"> None</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question15">15. Which factor do you prioritize the most while making a purchase?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question15" value="price"> Price</label><br>
+                        <label><input type="radio" name="question15" value="quality"> Quality</label><br>
+                        <label><input type="radio" name="question15" value="brandReputation"> Brand reputation</label><br>
+                        <label><input type="radio" name="question15" value="customerReviews"> Customer reviews</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question16">16. What aspect of customer service matters the most to you?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question16" value="friendlinessOfStaff"> Friendliness of staff</label><br>
+                        <label><input type="radio" name="question16" value="quickResponse"> Quick response to queries</label><br>
+                        <label><input type="radio" name="question16" value="knowledgeableAssistance"> Knowledgeable assistance</label><br>
+                        <label><input type="radio" name="question16" value="efficientComplaintResolution"> Efficient complaint resolution</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question17">17. How likely are you to recommend this tech shop to a friend or family member?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question17" value="veryLikely"> Very likely</label><br>
+                        <label><input type="radio" name="question17" value="likely"> Likely</label><br>
+                        <label><input type="radio" name="question17" value="unlikely"> Unlikely</label><br>
+                        <label><input type="radio" name="question17" value="veryUnlikely"> Very unlikely</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question18">18. What type of promotions or discounts do you find most appealing?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question18" value="percentageDiscounts"> Percentage discounts</label><br>
+                        <label><input type="radio" name="question18" value="buyOneGetOne"> Buy-one-get-one offers</label><br>
+                        <label><input type="radio" name="question18" value="giftVouchers"> Gift vouchers</label><br>
+                        <label><input type="radio" name="question18" value="loyaltyPrograms"> Loyalty programs</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question19">19. How do you prefer to receive information about new products or promotions?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question19" value="emailNewsletters"> Email newsletters</label><br>
+                        <label><input type="radio" name="question19" value="socialMediaUpdates"> Social media updates</label><br>
+                        <label><input type="radio" name="question19" value="smsNotifications"> SMS notifications</label><br>
+                        <label><input type="radio" name="question19" value="inStoreFlyers"> In-store flyers</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question20">20. Which aspect of the store's physical environment do you find most appealing?</label>
+                        <div class="options">
+                        <label><input type="radio" name="question20" value="lighting"> Lighting</label><br>
+                        <label><input type="radio" name="question20" value="displayArrangements"> Display arrangements</label><br>
+                        <label><input type="radio" name="question20" value="seatingAreas"> Seating areas</label><br>
+                        <label><input type="radio" name="question20" value="Nothing"> Nothing</label><br>
+                    </div>
+                </div> <br>
+                </div>
+                <div class="MulChoice">
+                    <div class="question">
+                        <label for="question21">21. Which of the following devices do you own? (Select all that apply)</label>
+                        <div class="options">
+                            <label><input type="checkbox" name="question21" value="smartphone"> Smartphone</label><br>
+                            <label><input type="checkbox" name="question21" value="tablet"> Tablet</label><br>
+                            <label><input type="checkbox" name="question21" value="laptop"> Laptop</label><br>
+                            <label><input type="checkbox" name="question21" value="desktop"> Desktop</label><br>
+                          
+                        
+             
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question22">22. How do you usually pay for your purchases? (Select all that apply)</label>
+                        <div class="options">
+                            <label><input type="checkbox" name="question22" value="creditCard"> Credit card</label><br>
+                            <label><input type="checkbox" name="question22" value="debitCard"> Debit card</label><br>
+                            <label><input type="checkbox" name="question22" value="cash"> Cash</label><br>
+                         
+                            <label><input type="checkbox" name="question22" value="onlinePayment"> Online payment</label><br>
+                        </div>
+                    </div>  <br>
+                    
+                    <div class="question">
+                        <label for="question23">23. How likely are you to participate in tech-related events or workshops organized by the shop? (Select all that apply)</label>
+                        <div class="options">
+                            <label><input type="checkbox" name="question23" value="veryLikely"> Very likely</label><br>
+                            <label><input type="checkbox" name="question23" value="likely"> Likely</label><br>
+                            <label><input type="checkbox" name="question23" value="unlikely"> Unlikely</label><br>
+                            <label><input type="checkbox" name="question23" value="veryUnlikely"> Very unlikely</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question24">24. How do you rate the overall shopping experience in comparison to other tech shops you've visited? (Select all that apply)</label>
+                        <div class="options">
+                            <label><input type="checkbox" name="question24" value="excellent"> Excellent</label><br>
+                            <label><input type="checkbox" name="question24" value="good"> Good</label><br>
+                            <label><input type="checkbox" name="question24" value="average"> Average</label><br>
+                            <label><input type="checkbox" name="question24" value="poor"> Poor</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question25">25. Which social media platforms do you follow the tech shop on? (Select all that apply)</label>
+                        <div class="options">
+                            <label><input type="checkbox" name="question25" value="facebook"> Facebook</label><br>
+                            <label><input type="checkbox" name="question25" value="twitter"> Twitter</label><br>
+                            <label><input type="checkbox" name="question25" value="instagram"> Instagram</label><br>
+                           
+                            <label><input type="checkbox" name="question25" value="youtube"> YouTube</label><br>
+                            <label><input type="checkbox" name="question25" value="other"> Other</label><br>
+                        </div>
+                    </div>  <br>
+                    
+                    <div class="question">
+                        <label for="question26">26. Which factors influence your decision to purchase from this tech shop? (Select all that apply)</label>
+                        <div class="options">
+                            <label><input type="checkbox" name="question26" value="price"> Price</label><br>
+                            <label><input type="checkbox" name="question26" value="productQuality"> Product quality</label><br>
+                            <label><input type="checkbox" name="question26" value="customerService"> Customer service</label><br>
+                            <label><input type="checkbox" name="question26" value="brandReputation"> Brand reputation</label><br>
+             
+                        </div>
+                    </div>  <br>
+                    
+                    <div class="question">
+                        <label for="question27">27. How likely are you to purchase from the tech shop's online store? (Select all that apply)</label>
+                        <div class="options">
+                            <label><input type="checkbox" name="question27" value="veryLikely"> Very likely</label><br>
+                            <label><input type="checkbox" name="question27" value="likely"> Likely</label><br>
+                            <label><input type="checkbox" name="question27" value="unlikely"> Unlikely</label><br>
+                            <label><input type="checkbox" name="question27" value="veryUnlikely"> Very unlikely</label><br>
+                        </div>
+                    </div> <br>
+
+                    <div class="question">
+                        <label for="question28">28. Which tech-related services have you used from the shop? (Select all that apply)</label>
+                        <div class="options">
+                         
+                            <label><input type="checkbox" name="question28" value="technicalSupport"> Technical support</label><br>
+                            <label><input type="checkbox" name="question28" value="deviceUpgrade"> Device upgrade</label><br>
+                            <label><input type="checkbox" name="question28" value="softwareInstallation"> Software installation</label><br>
+                            <label><input type="checkbox" name="question28" value="dataRecovery"> Data recovery</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question29">29. How often do you seek advice or recommendations from the shop's staff? (Select all that apply)</label>
+                        <div class="options">
+                            <label><input type="checkbox" name="question29" value="frequently"> Frequently</label><br>
+                            <label><input type="checkbox" name="question29" value="occasionally"> Occasionally</label><br>
+                            <label><input type="checkbox" name="question29" value="rarely"> Rarely</label><br>
+                            <label><input type="checkbox" name="question29" value="never"> Never</label><br>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question30">30. Which areas of improvement would you suggest to enhance your experience with the tech shop? (Select all that apply)</label>
+                        <div class="options">
+                            <label><input type="checkbox" name="question30" value="productAvailability"> Improve product availability</label><br>
+                            <label><input type="checkbox" name="question30" value="customerServiceTraining"> Provide better customer service training</label><br>
+                            <label><input type="checkbox" name="question30" value="onlineStoreImprovements"> Enhance the online store experience</label><br>
+                            
+                            <label><input type="checkbox" name="question30" value="otherSuggestions"> Other (please specify)</label><br>
+                        </div>
+                    </div> <br>
+                </div>
+                <div class="TextQuest">
+                    <div class="question">
+                        <label for="question31">31. What is the main reason for choosing this tech shop over competitors?</label> <br>
+                        <textarea name="question31" rows="4" cols="50"></textarea>
+                    </div> <br> <br>
+                    
+                    <div class="question">
+                        <label for="question32">32. Do you have any suggestions for improving our website?</label> <br>
+                        <textarea name="question32" rows="4" cols="50"></textarea>
+                    </div> <br> <br>
+                    
+                    <div class="question">
+                        <label for="question33">33. How did you first hear about our tech shop?</label> <br>
+                        <textarea name="question33" rows="4" cols="50"></textarea>
+                    </div> <br> <br>
+                    
+                    <div class="question">
+                        <label for="question34">34. What features would you like to see in our future products?</label> <br>
+                        <textarea name="question34" rows="4" cols="50"></textarea>
+                    </div> <br> <br>
+                    
+                    <div class="question">
+                        <label for="question35">35. Do you have any concerns or complaints you'd like to share with us?</label> <br>
+                        <textarea name="question35" rows="4" cols="50"></textarea>
+                    </div> <br> <br>
+                    
+                    <div class="question">
+                        <label for="question36">36. Would you like to receive updates about our promotions and new products via email?</label> <br>
+                        <textarea name="question36" rows="4" cols="50"></textarea>
+                    </div> <br> <br>
+                    
+                    <div class="question">
+                        <label for="question37">37. What additional services would you like us to offer?</label> <br>
+                        <textarea name="question37" rows="4" cols="50"></textarea>
+                    </div> <br> <br>
+                    
+                    <div class="question">
+                        <label for="question38">38. How satisfied are you with the pricing of our products?</label> <br>
+                        <textarea name="question38" rows="4" cols="50"></textarea>
+                    </div> <br> <br>
+                    
+                    <div class="question">
+                        <label for="question39">39. Is there anything else you'd like to share with us?</label> <br>
+                        <textarea name="question39" rows="4" cols="50"></textarea>
+                    </div> <br>
+                    
+                    <div class="question">
+                        <label for="question40">40. How likely are you to recommend our tech shop to others, and why?</label> <br>
+                        <textarea name="question40" rows="4" cols="50"></textarea>
+                    </div> <br> <br>
+                    
+                </div>
+                <br>
+                <div class="submit-box">
+                    <button class="submit-button" id="submitButton" type="submit">Submit form</button>
+                </div>
+            
+            </form>
+        
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("testForm").addEventListener("submit", function(event) {
+            event.preventDefault(); 
+            
+            
+            var formData = new FormData(this);
+            
+            
+            var urlParams = new URLSearchParams();
+            for (const pair of formData.entries()) {
+                urlParams.append(pair[0], pair[1]);
+            }
+            window.location.href = "result.html?" + urlParams.toString();
+        });
+    </script>
+
+</body>
